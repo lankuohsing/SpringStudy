@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * http://c.biancheng.net/view/4251.html
  * 1.新建lib文件夹(此例子里面是在src目录下），将Spring框架所需的JAR包复制到项目的lib目录中，
  *   并添加到类路径下(选中jar包，右键Build Path)
- * eclipse自带junit，手动add到build path即可
+ * eclipse自带junit，右键项目名称，properties--java build path-libraries-Add library-junit
  * 2.在 src 目录下创建 Spring 的核心配置文件 applicationContext.xml
  *  Spring 的配置文件名称是可以自定义的，通常情况下，都会将配置文件命名为 applicationContext.xml（或 bean.xml）。
  */
